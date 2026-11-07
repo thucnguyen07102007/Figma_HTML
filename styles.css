@@ -3,11 +3,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     height: 100vh;
+    
 }
 .heading{
     font-size: 32px;
     font-weight: medium;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 .form-label{
     font-size: 14px;
@@ -27,6 +28,7 @@
 }
 .form-remmerber label{
     font-size: 9px;
+    margin: 10px;
 }
 .form-remmerber input{
     width: 10px;
@@ -47,6 +49,7 @@
     font-size: 13px;
     font-weight: bold;
     margin-bottom: 7px;
+    margin-top: 20px;
 }
 .form-or{
     display: flex;
@@ -100,4 +103,10 @@
 }
 body{
 margin: 0;
+}
+.heading1{
+    font-size: 16px;
+    font-style: medium;
+    margin-bottom: 60px;
+
 }
