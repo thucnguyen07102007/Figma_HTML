@@ -113,6 +113,9 @@ body {
 * {
   box-sizing: border-box;
 }
+.img-mobile {
+  display: none;
+}
 @media (max-width: 768px) {
   .form-row {
     flex-direction: row;
@@ -139,5 +142,8 @@ body {
   }
   .auth-left {
     margin-top: 24px;
+  }
+  .img-mobile {
+    display: block;
   }
 }
