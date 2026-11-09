@@ -116,6 +116,14 @@ body {
 .img-mobile {
   display: none;
 }
+.form-help {
+  font-size: 15px;
+  color: red;
+  margin-bottom: 20px;
+  display: none;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .form-row {
     flex-direction: row;

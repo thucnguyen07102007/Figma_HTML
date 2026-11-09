@@ -20,12 +20,15 @@
         <div class="form">
           <div class="form-email">
             <div class="form-label">Email address</div>
-            <input type="email" placeholder="Enter your email" />
+            <input id="email" type="email" placeholder="Enter your email" />
           </div>
           <div class="form-password">
             <div class="form-label">Password</div>
-
-            <input type="password" placeholder="Enter your password" />
+            <input
+              id="password"
+              type="password"
+              placeholder="Enter your password"
+            />
           </div>
           <div class="form-remember">
             <input type="checkbox" id="terms" />
@@ -33,7 +36,11 @@
           </div>
         </div>
         <div class="form-button">
-          <button>Sign Up</button>
+          <button id="signin-bt">Sign In</button>
+        </div>
+        <div id="form-help" class="form-help">
+          Mật khẩu phải có ít nhất 8 ký tự, bao gồm chữ hoa, chữ thường, số và
+          ký tự đặc biệt.
         </div>
         <div class="form-or">
           <div class="form-or-line"></div>
@@ -65,5 +72,6 @@
         <img src="images/background_auth.png" alt="Logo" width="100" />
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
